@@ -1,0 +1,38 @@
+{
+  "name": "strapi-local-ts",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "cs": "config-sync"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@ckeditor/strapi-plugin-ckeditor": "^0.0.7",
+    "@strapi/plugin-graphql": "^4.10.6",
+    "@strapi/plugin-i18n": "^4.10.6",
+    "@strapi/plugin-seo": "^1.9.0",
+    "@strapi/plugin-users-permissions": "^4.10.6",
+    "@strapi/strapi": "^4.10.6",
+    "i18n-iso-countries": "^7.6.0",
+    "pg": "^8.8.0",
+    "strapi-plugin-config-sync": "^1.1.2",
+    "strapi-plugin-navigation": "^2.2.9",
+    "strapi-plugin-questions-field": "^1.1.1"
+  },
+  "author": {
+    "name": "Vlad Bo <vlaad.bo@gmail.com>"
+  },
+  "strapi": {
+    "uuid": "e4ca0595-ccdc-44cd-9d12-e0713594e289"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
