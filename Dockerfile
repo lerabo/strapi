@@ -14,6 +14,6 @@ RUN chown -R node:node /opt/app
 USER node
 COPY . .
 RUN yarn build
-RUN yarn cs import
+# RUN yarn cs import
 EXPOSE 1337
 CMD ["yarn", "develop"]
